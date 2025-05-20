@@ -1,0 +1,118 @@
+.heroes-container {
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  font-family: 'Roboto', sans-serif;
+}
+
+.heroes-title {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 2rem;
+}
+
+.heroes {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.heroes li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f9fafc;
+  border-radius: 12px;
+  padding: 0.8rem 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.heroes li:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.heroes a {
+  flex-grow: 1;
+  text-decoration: none;
+  color: #34495e;
+  font-size: 1.05rem;
+  display: flex;
+  align-items: center;
+}
+
+.badge {
+  background-color: #3498db;
+  color: white;
+  padding: 0.35rem 0.7rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  margin-right: 0.8rem;
+  font-weight: 600;
+}
+
+.delete {
+  background-color: #e74c3c;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  line-height: 1;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-left: 0.8rem;
+}
+
+.delete:hover {
+  background-color: #c0392b;
+}
+
+label {
+  font-size: 1rem;
+  margin-right: 0.5rem;
+  font-weight: 500;
+  color: #2c3e50;
+}
+
+input#new-hero {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+  width: 240px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input#new-hero:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 6px rgba(52, 152, 219, 0.3);
+  outline: none;
+}
+
+.add-button {
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+  background-color: #1e8449;
+}

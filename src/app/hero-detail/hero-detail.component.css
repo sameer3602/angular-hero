@@ -1,0 +1,39 @@
+.id{
+    margin-left: 70px;
+    color: #0d374d;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#hero-name{
+    margin-top: 10px;
+    color: #0d374d;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.name-title{
+    color: #0d374d;
+    font-size: 1.2em;
+    font-weight: bold;
+
+    text-align: center;
+}
+
+.id-title{
+    margin-left: 10px;
+    color: #0d374d;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+}
+#goBackButton{
+    margin-top: 20px;
+    margin-left: 10px;
+    color: #0d374d;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+}

@@ -1,0 +1,40 @@
+.dashboard {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 1.5rem 2rem;
+  background-color: #2c3e50;
+  border: 1px solid #9c9b9b;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.heroes-title {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+.heroes-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.heroes-menu a {
+  padding: 0.6rem 1rem;
+  text-decoration: none;
+  background-color: #f1f2f7;
+  color: #2c3e50;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+  font-weight: 600;
+  box-shadow: 0 1px 3px rgba(44, 62, 80, 0.2);
+}
+
+.heroes-menu a:hover {
+  background-color: #2c3e50;
+  color: #fff;
+}
