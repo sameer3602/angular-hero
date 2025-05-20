@@ -28,6 +28,7 @@ h1 {
   justify-content: space-between;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   color: rgb(53, 53, 53);
+  gap: 40px;
 }
 
 /* Wrapper for links */
