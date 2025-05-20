@@ -17,6 +17,7 @@ h1 {
   margin: 0;
   flex: 1;
   user-select: none;
+  margin-right: 450px;
 }
 
 /* Navbar styles */
