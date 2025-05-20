@@ -3,12 +3,15 @@ import { Hero } from '../heroes/hero';
 import { HeroService } from '../service/hero.service';
 import { NgFor } from '@angular/common';
 import { RouterLink, RouterModule } from '@angular/router';
+import { HeroSearchComponent } from "../hero-search/hero-search.component";
+
+
 
 @Component({
   selector: 'app-dashboard',
   templateUrl: './dashboard.component.html',
   styleUrls: [ './dashboard.component.css' ],
-  imports: [ NgFor,RouterLink ,RouterModule],
+  imports: [NgFor, RouterLink, RouterModule, HeroSearchComponent],
   standalone: true, 
 })
 export class DashboardComponent implements OnInit {
